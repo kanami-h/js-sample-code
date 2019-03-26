@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+	<h1>タイトル</h1>
+	<h2>小見出し</h2>
+	<p class="paragraph">本文</p>
+<script>
+
+// チャレンジ4の回答を記載！
+//h1タグにtitleというクラス名を追加しましょう。
+function addClassName(){
+  const addTitle = document.getElementsByTagName('h1');
+  for (let h1 of addTitle) {
+    h1.classList.add('title');
+  }
+}
+
+addClassName();
+
+//pタグのclassを除去しましょう
+function paragraphReset() {
+  const paraClass = document.getElementsByTagName('p');
+  for(let p of paraClass) {
+    p.classList.remove('paragraph');
+  }
+}
+
+paragraphReset();
+
+
+
+
+</script>
+</body>
+</html>

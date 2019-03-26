@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="quizzes-container">
+            <h1>Quiz</h1>
+            <div class="quiz-container">
+                <h2>1問目</h2>
+                 <div>
+                    <p>モロッコの首都は次のうちのどれ</p>
+                </div>
+                <form id="quiz-1">
+    	            <input name="answer" type="radio" value="a">カサブランカ</input>
+                     <!--正解はBのラバト-->
+                    <input name="answer" type="radio" value="b">ラバト</input>
+                    <input name="answer" type="radio" value="c">マラケシュ</input>
+               </form>
+                <button class="btn" type="button" onclick="answerQuiz1();">回答する</button>    
+            </div>
+            <div class="quiz-container">
+                <h2>2問目</h2>
+                <div>
+                    <p>世界でもっとも深い湖は次のうちのどれ</p>
+                </div>
+                <form id="quiz-2">
+                <!--正解はAのバイカル湖-->
+                    <input name="answer" type="radio" value="a">バイカル湖</input>
+                    <input  name="answer" type="radio" value="b">カスピ海</input>
+                    <input name="answer" type="radio" value="c">ビクトリア湖</input>
+                </form>
+                <button class="btn" type="button" onclick="answerQuiz2();">回答する</button>
+             </div>
+            <div class="quiz-container">
+                <h2>1問目</h2>
+                <div>
+                <p>絵画「夜警」を描いた画家は次のうちのどれ</p>
+                </div>
+                <form id="quiz-3">
+    	            <input name="answer" type="radio" value="a">フェルメール</input>
+    	            <input name="answer" type="radio" value="b">カラバッジオ</input>
+                    <!--正解はCのレンブラント---->
+    	            <input name="answer" type="radio" value="c">レンブラント</input>
+                </form>
+                <button class="btn" type="button" onclick="answerQuiz3();">回答する</button>
+            </div>
+            <div id="score-container">
+                <button class="btn" type="button" onclick="showScore();">スコアを見る</button>
+                <!--pタグ内にスコアを表示-->
+                <p id="score-message"></p>
+            </div>
+        </div>
+    </body>
+</html>

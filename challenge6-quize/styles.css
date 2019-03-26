@@ -1,0 +1,14 @@
+.quizzes-container{
+    width: 400px;
+  }
+  
+  .quiz-container{
+    border-bottom:1px solid black;
+    padding-bottom: 20px;
+  }
+  
+  
+  #score-container{
+    border: 1px solid black;
+  }
+  
