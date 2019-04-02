@@ -1,7 +1,7 @@
 # JavaScript-app-codegrit
 I studied at CodeGrit (online) https://www.codegrit.jp/
 
-## [Challenge1](https://github.com/kanamitomato/js-sample-code/tree/master/challenge1-alart) - alart
+## [Challenge1 - alart](https://github.com/kanamitomato/js-sample-code/tree/master/challenge1-alart)
 make alart with "alart()"
 
 ## Challenge2 - Time alart
