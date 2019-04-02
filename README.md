@@ -5,7 +5,7 @@ I studied at CodeGrit (online) https://www.codegrit.jp/
 make alart with "alert()"
 
 ## [Challenge2 - Time alert](https://github.com/kanamitomato/js-sample-code/blob/master/challenge2-timealart/index.html)
-make alart with "new Date();"
+make alert with "new Date();"
 
 ## [Challenge3 - Operator](https://github.com/kanamitomato/js-sample-code/blob/master/challenge3-operator/index.html)
 Try to use operator, make sure what is return.
