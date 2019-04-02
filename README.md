@@ -2,10 +2,10 @@
 I studied at CodeGrit (online) https://www.codegrit.jp/
 
 ## [Challenge1](https://github.com/kanamitomato/js-sample-code/tree/master/challenge1-alart) - alart
-make alart with alart()
+make alart with "alart()"
 
 ## Challenge2 - Time alart
-make alart with new Date();
+make alart with "new Date();"
 
 ## Challenge3 - Operator
 Try to use operator, make sure what is return.
