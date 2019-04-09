@@ -2,7 +2,7 @@
 I studied at CodeGrit (online) https://www.codegrit.jp/
 
 ## [Challenge1 - alert](https://github.com/kanamitomato/js-sample-code/tree/master/challenge1-alart)
-make alart with "alert()"
+make alert with "alert()"
 
 ## [Challenge2 - Time alert](https://github.com/kanamitomato/js-sample-code/blob/master/challenge2-timealart/index.html)
 make alert with "new Date();"
