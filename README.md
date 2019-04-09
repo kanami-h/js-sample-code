@@ -1,10 +1,10 @@
 # JavaScript-app-codegrit
 I studied at CodeGrit (online) https://www.codegrit.jp/
 
-## [Challenge1 - alert](https://github.com/kanamitomato/js-sample-code/tree/master/challenge1-alart)
+## [Challenge1 - alert](https://github.com/kanamitomato/js-sample-code/tree/master/challenge1-alert)
 make alert with "alert()"
 
-## [Challenge2 - Time alert](https://github.com/kanamitomato/js-sample-code/blob/master/challenge2-timealart/index.html)
+## [Challenge2 - Time alert](https://github.com/kanamitomato/js-sample-code/blob/master/challenge2-timealert/index.html)
 make alert with "new Date();"
 
 ## [Challenge3 - Operator](https://github.com/kanamitomato/js-sample-code/blob/master/challenge3-operator/index.html)
@@ -19,7 +19,7 @@ Try to make Piano app with DOM, querySelector, addEventListener, if statement
 ## [Challenge6 - Quiz](https://github.com/kanamitomato/js-sample-code/tree/master/challenge6-quize)
 Try to make quizes with switch statement
 
-## [Challenge7 - loop alert](https://github.com/kanamitomato/js-sample-code/tree/master/challenge7-for%20loop%20alart)
+## [Challenge7 - loop alert](https://github.com/kanamitomato/js-sample-code/tree/master/challenge7-loop-alert)
 Try to use for statement and while statement
 
 ## [Challenge8 - Scope](https://github.com/kanamitomato/js-sample-code/tree/master/challenge8-scope)
