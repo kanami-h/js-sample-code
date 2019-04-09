@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="quizzes-container">
+            <h1>Quiz</h1>
+            <div class="quiz-container">
+                <h2>Question 1</h2>
+                 <div>
+                    <p>Which one is the capital of Morocco?</p><!-- モロッコの首都は次のうちのどれ -->
+                </div>
+                <form id="quiz-1">
+    	            <input name="answer" type="radio" value="a">Casablanca</input>
+                     <!--正解はBのラバト-->
+                    <input name="answer" type="radio" value="b">Rabat</input>
+                    <input name="answer" type="radio" value="c">Marrakesh</input>
+               </form>
+                <button class="btn" type="button" onclick="answerQuiz1();">answer</button>    
+            </div>
+            <div class="quiz-container">
+                <h2>Question 2</h2>
+                <div>
+                    <p>Which is the deepest lake in the world</p>
+                    <!-- <p>世界でもっとも深い湖は次のうちのどれ</p> -->
+                </div>
+                <form id="quiz-2">
+                <!--正解はAのバイカル湖-->
+                    <input name="answer" type="radio" value="a">Baikal lake</input>
+                    <input  name="answer" type="radio" value="b">Caspian Sea</input>
+                    <input name="answer" type="radio" value="c">Victoria Lake</input>
+                </form>
+                <button class="btn" type="button" onclick="answerQuiz2();">answer</button>
+             </div>
+            <div class="quiz-container">
+                <h2>Question 3</h2>
+                <div>
+                    <p>Who drew "The Night Watch" from below</p>
+                <!-- <p>絵画「夜警」を描いた画家は次のうちのどれ</p> -->
+                </div>
+                <form id="quiz-3">
+    	            <input name="answer" type="radio" value="a">Jan Vermeer</input>
+    	            <input name="answer" type="radio" value="b">Caravaggio</input>
+                    <!--正解はCのレンブラント---->
+    	            <input name="answer" type="radio" value="c">Rembrandt</input>
+                </form>
+                <button class="btn" type="button" onclick="answerQuiz3();">answer</button>
+            </div>
+            <div id="score-container">
+                <button class="btn" type="button" onclick="showScore();">Check your score</button>
+                <!--pタグ内にスコアを表示-->
+                <p id="score-message"></p>
+            </div>
+        </div>
+    </body>
+</html>

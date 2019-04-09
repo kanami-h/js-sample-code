@@ -9,8 +9,7 @@
 	<p class="paragraph">本文</p>
 <script>
 
-// チャレンジ4の回答を記載！
-//h1タグにtitleというクラス名を追加しましょう。
+//add class name "title" to h1 tag
 function addClassName(){
   const addTitle = document.getElementsByTagName('h1');
   for (let h1 of addTitle) {
@@ -20,7 +19,7 @@ function addClassName(){
 
 addClassName();
 
-//pタグのclassを除去しましょう
+//remove class from p tag
 function paragraphReset() {
   const paraClass = document.getElementsByTagName('p');
   for(let p of paraClass) {
