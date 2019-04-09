@@ -16,7 +16,7 @@ Try to add "title" class to h1 tag
 ## [Challenge5 - Piano](https://github.com/kanamitomato/js-sample-code/tree/master/challenge5-piano)
 Try to make Piano app with DOM, querySelector, addEventListener, if statement
 
-## [Challenge6 - Quiz](https://github.com/kanamitomato/js-sample-code/tree/master/challenge6-quize)
+## [Challenge6 - Quiz](https://github.com/kanamitomato/js-sample-code/tree/master/challenge6-quiz)
 Try to make quizes with switch statement
 
 ## [Challenge7 - loop alert](https://github.com/kanamitomato/js-sample-code/tree/master/challenge7-loop-alert)
